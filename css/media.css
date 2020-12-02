@@ -1,0 +1,8 @@
+@media(max-width: 800px) {
+    .information {
+        flex-direction: column-reverse;
+    }
+    .cont span {
+        display: none;
+    }
+}
