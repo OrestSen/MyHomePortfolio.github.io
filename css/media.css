@@ -29,7 +29,7 @@
        font-size: 15px;
     }
     .portret {
-        width: 40%;
+        width: 50%;
     }
     .portret img {
         width: 100%;
@@ -45,4 +45,6 @@
     h2.position {
         margin-top: 80px;
     }
+    .portret {
+        width:40%;
 }
