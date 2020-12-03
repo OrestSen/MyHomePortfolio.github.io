@@ -14,7 +14,7 @@
         position: relative;
     }
     .portret {
-        width: 50%;
+        width: 30%;
     }
     .news__slider-inner .slick-btn {
         top: auto;
@@ -29,7 +29,7 @@
        font-size: 15px;
     }
     .portret {
-        width: 20%;
+        width: 40%;
     }
     .portret img {
         width: 100%;
