@@ -14,14 +14,14 @@
         position: relative;
     }
     .portret {
-        width: 20%;
+        width: 30%;
     }
     .news__slider-inner .slick-btn {
         top: auto;
         bottom: -60px;
     }
     h2.position {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 }
 @media(max-width:600px) {
@@ -43,6 +43,6 @@
         margin: 3px 6px;
     }
     h2.position {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 }
