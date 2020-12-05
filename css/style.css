@@ -261,7 +261,7 @@ ul, li {
     padding: 110px 0px;
 }
 
-.portfolia__item {
+.portfolio__item{
     transition: width 1s, height 1s, transform 0.5s;
     text-align:center;
     margin: 10px;
@@ -270,13 +270,6 @@ ul, li {
 .portfolio__item img {
     width: 100%;
     height: 100%;
-}
-
-.portfolia__item:nth-child(2):hover {
-    box-shadow: red;
-    background-color: black;
-    transform: rotate(360deg);
-    color: red;
 }
 
 .skills {
@@ -454,4 +447,156 @@ main.is-visible {
     transition: transform 4s .35s cubic-bezier(0,1,.3,1),
                 filter 10s 2s ease-out;
     will-change: transform;
+}
+/* ****************************************************************************** */
+
+.shop-p {
+    background-image: url(../images/shop-project.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 5px;
+}
+.shop-p h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.shop-p:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.shop-p:hover h3   {
+    visibility: visible;
+}
+
+/* ************************************************************ */
+
+.comprehensive {
+    background-image: url(../images/comprehensive.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.comprehensive h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.comprehensive:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.comprehensive:hover h3   {
+    visibility: visible;
+}
+/* ************************************************************ */
+
+.naturalist {
+    background-image: url(../images/naturalist.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.naturalist h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.naturalist:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.naturalist:hover h3   {
+    visibility: visible;
+}
+/* ************************************************************ */
+
+.blog {
+    background-image: url(../images/blog.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.blog h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.blog:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.blog:hover h3   {
+    visibility: visible;
+}
+/* ************************************************************ */
+
+.freewip {
+    background-image: url(../images/freewip.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.freewip h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.freewip:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.freewip:hover h3   {
+    visibility: visible;
+}
+/* ************************************************************ */
+
+.modest {
+    background-image: url(../images/modest.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.modest h3 {
+    margin: 95px 140px 60px 20px;
+    color: white;
+    font-size: 22px;
+    visibility: hidden;
+}
+
+.modest:hover tr {
+    transition: width 1s, height 1s, transform 0.5s;
+    -webkit-transform:rotate(360deg);
+    background-color: #ca5d66bb;
+}
+.modest:hover h3   {
+    visibility: visible;
+}
+
+.portfolio__item table {
+    width: 300px;
+    height: 180px;
 }
