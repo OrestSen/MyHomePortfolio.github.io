@@ -14,14 +14,14 @@
         position: relative;
     }
     .portret {
-        width: 20%;
+        width: 30%;
     }
     .news__slider-inner .slick-btn {
         top: auto;
         bottom: -60px;
     }
     h2.position {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 }
 
@@ -35,10 +35,10 @@
 
 @media(max-width:600px) {
     .navigation {
-       font-size: 17px;
+       font-size: 18px;
     }
     .portret {
-        width: 30%;
+        width: 50%;
     }
     .portret img {
         width: 100%;
@@ -52,6 +52,8 @@
         margin: 6px 6px;
     }
     h2.position {
-        margin-top: 50px;
+        margin-top: 80px;
     }
+    .portret {
+        width:40%;
 }
